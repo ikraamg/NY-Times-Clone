@@ -1,0 +1,22 @@
+#navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+
+#navbar-item-1 {
+    /* padding: 10px 0 10px 7vw; */
+}
+
+#navbar-item-2 {
+    padding: 0;
+}
+
+#navbar-item-3 {
+    
+}
