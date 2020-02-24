@@ -1,22 +1,61 @@
 #navbar {
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
 }
 
 #navbar-item-1 {
-    /* padding: 10px 0 10px 7vw; */
+  /* padding: 10px 0 10px 7vw; */
 }
 
 #navbar-item-2 {
-    padding: 0;
+  /* padding: 0; */
 }
 
 #navbar-item-3 {
-    
+}
+
+#grid-container {
+  display: grid;
+  grid-template-areas:
+    'bla1 main main main main bla2'
+    'bla1 arti arti arti asid bla2'
+    'bla1 foot foot foot foot bla2';
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+#blank1 {
+  background-color: aqua;
+  grid-area: bla1;
+}
+
+#blank2 {
+  background-color: aqua;
+  grid-area: bla2;
+}
+
+#main {
+  background-color: grey;
+  grid-area: main;
+}
+
+#aside {
+  background-color: honeydew;
+  grid-area: asid;
+}
+
+#article {
+  background-color: khaki;
+  grid-area: arti;
+}
+
+#footer {
+  background-color: lawngreen;
+  grid-area: foot;
 }
