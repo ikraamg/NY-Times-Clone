@@ -21,6 +21,7 @@
 }
 
 #grid-container {
+  padding-top: 3%;
   display: grid;
   grid-template-areas:
     'bla1 main main main main bla2'
@@ -28,6 +29,8 @@
     'bla1 foot foot foot foot bla2';
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
+  justify-content: center;
+  text-align: center;
 }
 
 #blank1 {
@@ -40,14 +43,9 @@
   grid-area: bla2;
 }
 
-#main {
+#main-content {
   background-color: grey;
   grid-area: main;
-}
-
-#aside {
-  background-color: honeydew;
-  grid-area: asid;
 }
 
 #article {
@@ -58,4 +56,9 @@
 #footer {
   background-color: lawngreen;
   grid-area: foot;
+}
+
+#aside {
+  background-color: honeydew;
+  grid-area: asid;
 }
