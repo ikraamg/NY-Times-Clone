@@ -93,11 +93,6 @@ h3 {
   border-top: 2px solid black;
 }
 
-#footer {
-  background-color: lawngreen;
-  grid-area: foot;
-}
-
 #aside {
   background-color: white;
   grid-area: asid;
@@ -105,6 +100,7 @@ h3 {
   margin-left: 20%;
   border-top: 2px solid black;
 }
+
 .caption-text,
 .main-content-text-headers,
 .main-content-text {
@@ -191,6 +187,7 @@ iframe {
   margin-top: 30px;
   border-top: 1px solid gray;
   text-align: left;
+  grid-area: foot;
 }
 
 .footer-lists {
@@ -204,7 +201,6 @@ iframe {
 
 .footer-items {
   padding-top: 10px;
-
   font-weight: normal;
 }
 
