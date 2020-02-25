@@ -138,3 +138,13 @@ iframe {
 .caption-text {
   font-size: 0.75em;
 }
+
+#article-flex {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+}
+
+#article-flex a{
+  flex: 1 1 30%;
+}
