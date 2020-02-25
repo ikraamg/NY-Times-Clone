@@ -70,7 +70,7 @@ h3 {
   padding: 0;
 }
 
-#main-links {
+.main-links {
   background-color: white;
   width: 35%;
   margin-left: 35%;
@@ -144,17 +144,17 @@ iframe {
   font-size: 0.75em;
 }
 
-#article-flex {
+.article-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-#article-flex a img {
+.article-flex a img {
   width: 270px;
   height: 203px;
 }
 
-#article-flex a {
+.article-flex a {
   flex: 1 1 33.333%;
   color: black;
   text-decoration: none;
