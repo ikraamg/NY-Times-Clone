@@ -9,6 +9,7 @@
   left: 0;
   right: 0;
   padding: 0;
+  background-color: white;
 }
 
 #navbar-item-1 {
@@ -29,13 +30,13 @@
   padding-top: 3%;
   display: grid;
   grid-template-areas:
-    'bla1 main main main main bla2'
-    'bla1 arti arti arti asid bla2'
-    'bla1 foot foot foot foot bla2';
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
+    'main main main main'
+    'arti arti arti asid'
+    'foot foot foot foot';
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
   text-align: center;
+  /* width: 100vw; */
   min-height: 100vh;
 }
 
@@ -57,21 +58,21 @@ h3 {
   text-align: left;
 }
 
-#main-image {
-  width: 100%;
-  height: auto;
-}
-
+h3,
 #main-text {
   text-align: left;
+  width: 50%;
+  margin-left: 25%;
 }
 
 #main-links {
   background-color: white;
+  width: 50%;
+  margin-left: 25%;
 }
 
 #main-content {
-  background-color: grey;
+  background-color: white;
   grid-area: main;
 }
 
@@ -88,4 +89,19 @@ h3 {
 #aside {
   background-color: honeydew;
   grid-area: asid;
+}
+
+.main-content-text {
+  width: 50%;
+  margin-left: 25%;
+}
+
+#main-content-images {
+  width: 75%;
+  height: auto;
+}
+
+#main-image {
+  width: 75%;
+  height: auto;
 }
