@@ -11,18 +11,25 @@
   padding: 0;
   background-color: white;
   border: 1px solid rgb(210, 210, 210);
+  width: 100vw;
 }
 
 #navbar-item-1 {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 #navbar-item-2 {
   flex: 2;
+  display: flex;
+  justify-content: center;
 }
 
 #navbar-item-3 {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 /* Main Section */
@@ -148,7 +155,7 @@ iframe {
 }
 
 #article-flex a {
-  flex: 0 1 33.333%;
+  flex: 1 1 33.333%;
   color: black;
   text-decoration: none;
   text-align: left;
@@ -184,5 +191,39 @@ iframe {
   margin-top: 30px;
   border-top: 1px solid gray;
   text-align: left;
+}
 
+.footer-lists {
+  float: left;
+  margin: 0;
+  padding: 20px 7% 0 0;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.footer-items {
+  padding-top: 10px;
+
+  font-weight: normal;
+}
+
+.first {
+  clear: both;
+}
+
+#footer a {
+  float: left;
+}
+
+.footer-small-text {
+  font-size: 0.8em;
+  clear: both;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.last {
+  border-left: 0.5px solid grey;
+  padding-left: 20px;
 }
