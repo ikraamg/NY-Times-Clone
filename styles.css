@@ -1,3 +1,5 @@
+/* Header and Navbar Section */
+
 #navbar {
   position: fixed;
   display: flex;
@@ -10,15 +12,18 @@
 }
 
 #navbar-item-1 {
-  /* padding: 10px 0 10px 7vw; */
+  flex: 1;
 }
 
 #navbar-item-2 {
-  /* padding: 0; */
+  flex: 2;
 }
 
 #navbar-item-3 {
+  flex: 1;
 }
+
+/* Main Section */
 
 #grid-container {
   padding-top: 3%;
@@ -31,6 +36,7 @@
   grid-template-rows: auto;
   justify-content: center;
   text-align: center;
+  min-height: 100vh;
 }
 
 #blank1 {
@@ -41,6 +47,27 @@
 #blank2 {
   background-color: aqua;
   grid-area: bla2;
+}
+
+h1 {
+  font-style: italic;
+}
+
+h3 {
+  text-align: left;
+}
+
+#main-image {
+  width: 100%;
+  height: auto;
+}
+
+#main-text {
+  text-align: left;
+}
+
+#main-links {
+  background-color: white;
 }
 
 #main-content {
