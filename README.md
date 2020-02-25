@@ -1,5 +1,5 @@
-# html-form
-A clone of NY times Article
+# NY-Times-Clone
+A clone of an article in the New York Times
 
 # What it does
 It is an HTML page created using pure HTML and CSS.
