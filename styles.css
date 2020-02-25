@@ -100,7 +100,8 @@ h3 {
   background-color: honeydew;
   grid-area: asid;
 }
-
+.caption-text,
+.main-content-text-headers,
 .main-content-text {
   width: 35%;
   margin-left: 35%;
@@ -109,12 +110,31 @@ h3 {
   text-align: left;
 }
 
-#main-content-images {
-  width: 75%;
+iframe {
+  width: 35%;
+  margin-left: 5%;
+  height: 450px;
+}
+
+.main-content-images {
+  width: 65%;
   height: auto;
+}
+
+.small-image {
+  width: 40%;
+  margin-left: 5%;
 }
 
 #main-image {
   width: 65%;
   height: auto;
+}
+
+.main-content-text-headers {
+  text-align: left;
+}
+
+.caption-text {
+  font-size: 0.75em;
 }
