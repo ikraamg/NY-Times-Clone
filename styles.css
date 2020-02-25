@@ -94,7 +94,7 @@ h3 {
 #aside {
   background-color: white;
   grid-area: asid;
-  width: 60%;
+  width: 40%;
   margin-left: 20%;
   border-top: 2px solid black;
 }
@@ -139,7 +139,6 @@ iframe {
 
 #article-flex {
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
 }
 
@@ -162,9 +161,28 @@ iframe {
 
 .article-heading {
   text-align: left;
+  padding: 10px 0;
+  margin: 0;
 }
 
 #aside h2 {
   text-align: left;
   border-bottom: 1px solid grey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+  padding: 10px 0;
+}
+
+#article-hr {
+  border-top: 2px solid black;
+}
+
+#footer {
+  background-color: white;
+  width: 65%;
+  margin-left: 17%;
+  margin-top: 30px;
+  border-top: 1px solid gray;
+  text-align: left;
+
 }
