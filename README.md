@@ -10,7 +10,7 @@ It is an HTML page created using pure HTML and CSS.
 
 ## Live Demo
 
-[Live Demo](https://raw.githack.com/DennisOsido/NY-Times-Clone/NY-Times_Clone/index.html)
+[Live Demo](https://ikraamg.github.io/NY-Times-Clone)
 
 ## Getting Started
 
